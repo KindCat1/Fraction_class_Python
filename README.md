@@ -11,3 +11,16 @@ My class has:
 - GCD and LCM functions
 - Fraction class
 - Int and DecimalNum functions
+### Using GCD and LCM functions
+```py
+from fraction import GCD, LCM
+print(GCD(10, 15))  #5
+print(LCM(10, 15))  #30
+```
+### Using Fraction class
+```py
+from fraction import Fraction
+fr = Fraction(2, 3)  #2/3
+fr2 = Fraction(1, 2)  #1/2
+print(fr + fr2)  #1 1/6
+```
